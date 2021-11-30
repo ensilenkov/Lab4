@@ -12,12 +12,12 @@ namespace Lab4
         {
         
             uint N = Convert.ToUInt32(Console.ReadLine());
-            uint N2;
-            for (uint i = 0; i <= N; i++)
+            uint N2 = 1;
+            for (uint i = 0; i <= N; i ++ )
 
             {
 
-                Console.WriteLine("Квадрат числа {0} равен {1}", i , N2 = i * i);
+                Console.WriteLine("Квадрат числа {0} равен {1}", i , N2 += 2* i - 1 );
             }
             
            
